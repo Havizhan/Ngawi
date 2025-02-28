@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d8d8d8; /*Warna background halaman*/
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*pusatkan konten*/
+}
+
+#container {
+    width: 80%;
+    max-width: 1000px; /*batas max lebar*/
+    background-color: white; /*warna background konten utama*/
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  /*Efek bayangan*/
+    border-radius: 10px; /*sudut membulat*/
+    padding: 20px; /*Spasi dalam*/
+    margin-top: 20px;
+}
+
+/* Styling Judul*/
+#judul {
+    text-align: center;
+    padding: 20px;
+    background: #0073e6; /*Warna biru*/
+    color: white;
+    border-radius: 10px 10px 0 0; /*Atas yang membulat*/
+}
+
+/* Styling Konten*/
+#konten {
+    background-color: palegreen;
+    padding: 20px;
+}
+
+/* Table */
+table {
+    width: 100px;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+#sejarah {
+    background-color: blueviolet;
+}
+
+#pariwisata {
+    background-color: rgb(255, 187, 0);
+}
+
+/* Footer */
+#footer {
+    background-color: gray;
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+}
